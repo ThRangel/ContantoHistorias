@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F194FCAD2339263600327891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194FCAC2339263600327891 /* AppDelegate.swift */; };
+		F194FCAF2339263600327891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194FCAE2339263600327891 /* ViewController.swift */; };
+		F194FCB22339263600327891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F194FCB02339263600327891 /* Main.storyboard */; };
+		F194FCB42339263700327891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F194FCB32339263700327891 /* Assets.xcassets */; };
+		F194FCB72339263700327891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F194FCB52339263700327891 /* LaunchScreen.storyboard */; };
+		F194FCC02339264900327891 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F194FCBF2339264900327891 /* AVFoundation.framework */; };
+		F194FCC2233934A000327891 /* dosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194FCC1233934A000327891 /* dosViewController.swift */; };
+		F194FCC4233944E400327891 /* vista2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194FCC3233944E400327891 /* vista2ViewController.swift */; };
+		F194FCC623394B2600327891 /* vista4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194FCC523394B2600327891 /* vista4ViewController.swift */; };
+		F194FCC823394B7A00327891 /* vista5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194FCC723394B7A00327891 /* vista5ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F194FCA92339263600327891 /* avSpeechSynthetizerTH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avSpeechSynthetizerTH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F194FCAC2339263600327891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F194FCAE2339263600327891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F194FCB12339263600327891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F194FCB32339263700327891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F194FCB62339263700327891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F194FCB82339263700327891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F194FCBF2339264900327891 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F194FCC1233934A000327891 /* dosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dosViewController.swift; sourceTree = "<group>"; };
+		F194FCC3233944E400327891 /* vista2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vista2ViewController.swift; sourceTree = "<group>"; };
+		F194FCC523394B2600327891 /* vista4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vista4ViewController.swift; sourceTree = "<group>"; };
+		F194FCC723394B7A00327891 /* vista5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vista5ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F194FCA62339263600327891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F194FCC02339264900327891 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F194FCA02339263600327891 = {
+			isa = PBXGroup;
+			children = (
+				F194FCAB2339263600327891 /* avSpeechSynthetizerTH */,
+				F194FCAA2339263600327891 /* Products */,
+				F194FCBE2339264900327891 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F194FCAA2339263600327891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F194FCA92339263600327891 /* avSpeechSynthetizerTH.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F194FCAB2339263600327891 /* avSpeechSynthetizerTH */ = {
+			isa = PBXGroup;
+			children = (
+				F194FCAC2339263600327891 /* AppDelegate.swift */,
+				F194FCAE2339263600327891 /* ViewController.swift */,
+				F194FCB02339263600327891 /* Main.storyboard */,
+				F194FCC723394B7A00327891 /* vista5ViewController.swift */,
+				F194FCC523394B2600327891 /* vista4ViewController.swift */,
+				F194FCC3233944E400327891 /* vista2ViewController.swift */,
+				F194FCC1233934A000327891 /* dosViewController.swift */,
+				F194FCB32339263700327891 /* Assets.xcassets */,
+				F194FCB52339263700327891 /* LaunchScreen.storyboard */,
+				F194FCB82339263700327891 /* Info.plist */,
+			);
+			path = avSpeechSynthetizerTH;
+			sourceTree = "<group>";
+		};
+		F194FCBE2339264900327891 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F194FCBF2339264900327891 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F194FCA82339263600327891 /* avSpeechSynthetizerTH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F194FCBB2339263700327891 /* Build configuration list for PBXNativeTarget "avSpeechSynthetizerTH" */;
+			buildPhases = (
+				F194FCA52339263600327891 /* Sources */,
+				F194FCA62339263600327891 /* Frameworks */,
+				F194FCA72339263600327891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = avSpeechSynthetizerTH;
+			productName = avSpeechSynthetizerTH;
+			productReference = F194FCA92339263600327891 /* avSpeechSynthetizerTH.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F194FCA12339263600327891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = 313059993;
+				TargetAttributes = {
+					F194FCA82339263600327891 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = F194FCA42339263600327891 /* Build configuration list for PBXProject "avSpeechSynthetizerTH" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F194FCA02339263600327891;
+			productRefGroup = F194FCAA2339263600327891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F194FCA82339263600327891 /* avSpeechSynthetizerTH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F194FCA72339263600327891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F194FCB72339263700327891 /* LaunchScreen.storyboard in Resources */,
+				F194FCB42339263700327891 /* Assets.xcassets in Resources */,
+				F194FCB22339263600327891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F194FCA52339263600327891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F194FCC623394B2600327891 /* vista4ViewController.swift in Sources */,
+				F194FCAF2339263600327891 /* ViewController.swift in Sources */,
+				F194FCC4233944E400327891 /* vista2ViewController.swift in Sources */,
+				F194FCAD2339263600327891 /* AppDelegate.swift in Sources */,
+				F194FCC823394B7A00327891 /* vista5ViewController.swift in Sources */,
+				F194FCC2233934A000327891 /* dosViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F194FCB02339263600327891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F194FCB12339263600327891 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F194FCB52339263700327891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F194FCB62339263700327891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F194FCB92339263700327891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F194FCBA2339263700327891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F194FCBC2339263700327891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = avSpeechSynthetizerTH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.acatlan.pcpuma.avSpeechSynthetizerTH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F194FCBD2339263700327891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = avSpeechSynthetizerTH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.acatlan.pcpuma.avSpeechSynthetizerTH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F194FCA42339263600327891 /* Build configuration list for PBXProject "avSpeechSynthetizerTH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F194FCB92339263700327891 /* Debug */,
+				F194FCBA2339263700327891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F194FCBB2339263700327891 /* Build configuration list for PBXNativeTarget "avSpeechSynthetizerTH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F194FCBC2339263700327891 /* Debug */,
+				F194FCBD2339263700327891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F194FCA12339263600327891 /* Project object */;
+}
